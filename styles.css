@@ -1,8 +1,17 @@
 body {
-    background-color: maroon;
+    background-color: rgb(15,55,35);
 }
 
 h2 {
     margin: 0;
 
+}
+a{
+	font-size:50px;
+}
+marquee{
+	font-family:Helvetica;
+}
+p{
+	color:white;
 }
