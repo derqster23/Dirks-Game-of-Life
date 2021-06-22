@@ -1,1 +1,0 @@
-# Dirks-Game-of-Life
