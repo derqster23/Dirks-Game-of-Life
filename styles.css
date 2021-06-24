@@ -1,17 +1,55 @@
 body {
-    background-color: rgb(15,55,35);
+    background-image: linear-gradient(to right, #0E62AD ,red, #ffff00);
+	border-left:10px solid rgb(255,0,255);
+	border-right:10px solid rgb(0,160,255);
+    border-bottom:10px rgb(0,255,0) solid;
 }
 
 h2 {
     margin: 0;
+}
 
+.game {
+    font-size:50px;
 }
-a{
-	font-size:50px;
+
+marquee {
+    font-family: Helvetica;
+    margin-left:0;
 }
-marquee{
-	font-family:Helvetica;
+
+p {
+    color: white;
 }
-p{
-	color:white;
+div {
+    width:100px;
+    height:100px;
+    border: 1px solid white;
+    float:left;
+    text-align:center;
+	
+}
+.about{
+	color:rgb(255,100,0);
+}
+.contacts{
+	color:rgb(0,160,255);
+}
+.projects{
+	color:rgb(255,255,0);
+}
+.finish{
+	color:rgb(255,0,255);
+}
+.container{
+	width:750px;
+    float:left;
+    height:400px;
+    background-color:white;
+}
+.center{
+	width:100px;
+    height:100px;
+    background-color:#000000;
+    margin:10px auto;
 }
