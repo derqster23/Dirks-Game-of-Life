@@ -1,7 +1,8 @@
 <!DOCTYPE html> <html><head>
         <title>Dirk's Game of Life </title>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;display=swap" rel="stylesheet">
     <style>body {
-    background-image: linear-gradient(to right ,#00476a,#e400a4);
+    background-image: linear-gradient(to right, #00476a, #e400a4);
     border-left: 10px solid rgb(255, 0, 255);
     border-right: 10px solid rgb(0, 160, 255);
     border-bottom: 10px rgb(0, 255, 0) solid;
@@ -16,7 +17,6 @@ h2 {
 }
 
 marquee {
-    font-family: Helvetica;
     margin-left: 0;
 }
 
@@ -25,46 +25,61 @@ p {
 }
 
 div {
-    width: 14%;
-    height: 20%;
     border: 1px solid white;
     float: left;
-    text-align: center;
-	margin-right:5px;
+    text-align: center;    
+}
+
+.center {
+    width: 14%;
+    height: 20%;
+    margin-right: 5px;
+    background-size:200%;
+    font-size:20px;
+    
 }
 
 .about {
-    color: rgb(255, 100, 0);
-    margin-left:20%;
-    border-top-color:rgb(255, 100, 0);
-	border-bottom-color:rgb(0,255,0);
+    background-color: white;
+    margin-left: 20%;
+    border-top-color: rgb(255, 100, 0);
+    border-bottom-color: rgb(0, 255, 0);
 }
 
 .contacts {
-    color: rgb(0, 160, 255);
-    border-top-color:rgb(0, 160, 255);
-	border-bottom-color:rgb(0,255,0);
+    color: #24ff00;
+    border-top-color: rgb(0, 160, 255);
+    border-bottom-color: rgb(0, 255, 0);
 }
 
 .projects {
     color: rgb(255, 255, 0);
-    border-top-color:rgb(255, 255, 0);
-	border-bottom-color:rgb(0,255,0);
+    border-top-color: rgb(255, 255, 0);
+    border-bottom-color: rgb(0, 255, 0);
 }
 
 .finish {
     color: rgb(255, 0, 255);
-    margin-right:20%;
-    border-top-color:rgb(255, 0, 255);
-    border-bottom-color:rgb(0,255,0);
+    margin-right: 20%;
+    border-top-color: rgb(255, 0, 255);
+    border-bottom-color: rgb(0, 255, 0);
 }
-html,body{
-	height:100%;
+
+html,
+body {
+    height: 100%;
+}
+.flex-it{
+ 	border-style:hidden;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
 }</style></head>
     <body>
         <!--The line below could include a background on the Marquee...-->
         <h1 style="border-style:solid;border-color:yellow;">
-            <marquee style="color:yellow">
+            <marquee style="color:yellow;font-family:'Fredoka One',cursive;">
                 Welcome! Welcome! Welcome! Welcome! Welcome!
             </marquee>
         </h1>
@@ -77,38 +92,38 @@ html,body{
         </p>
         <!--The next two h2 tags are meant-->
 
-        <h2 style="color:white;text-align:center;font-size:40px;">
-            Dirk Soughan's
-        </h2>
-        <h2 style="color:white;text-align:center;">
-
-            <a class="game" style="color:rgb(255,99,0);margin-left:-13px;text-decoration:underline rgb(0,255,0);">
-                G
-            </a>
-            <a class="game" style="color:rgb(0,160,255);margin-left:-13px;text-decoration:underline rgb(0,255,0)">
-                a
-            </a>
-            <a class="game" style="color:rgb(255,255,0);margin-left:-13px;text-decoration:underline rgb(0,255,0)">
-                m
-            </a>
-            <a class="game" style="color:rgb(255,0,255);margin-left:-13px;text-decoration:underline rgb(0,255,0)">
-                e
-            </a>
-            of Life
-        </h2>
-        <br>
-       	<br>
-		<br>
+        <div style="margin-left:25%;margin-right:25%;width:50%;margin-bottom:5%;border-style:hidden;">
+            <h2 style="color:white;text-align:center;font-size:40px;">
+                Dirk Soughan's
+            </h2>
+            <h2 style="color:white;text-align:center;padding-bottom:5px;">
+                <a class="game" style="color:rgb(255,99,0);margin-left:-13px;text-decoration:underline rgb(0,255,0);">
+                    G
+                </a>
+                <a class="game" style="color:rgb(0,160,255);margin-left:-13px;text-decoration:underline rgb(0,255,0)">
+                    a
+                </a>
+                <a class="game" style="color:rgb(255,255,0);margin-left:-13px;text-decoration:underline rgb(0,255,0)">
+                    m
+                </a>
+                <a class="game" style="color:rgb(255,0,255);margin-left:-13px;text-decoration:underline rgb(0,255,0)">
+                    e
+                </a>
+                of Life
+            </h2>
+        </div>
         <br>
         <br>
-        <div class="about">About me</div>
-        <div class="contacts">Contacts</div>
-        <div class="projects">Projects</div>
-        <div class="finish">
-            Finish!
-            <br>
-            <br>
-        	<img src="https://imgur.com/WxBNuOW.jpg" alt="You Finished!" style="width:100px">
+        <br>
+        <br>
+        <div class="flex-it">
+            <div class="about center" style="background-image:url('https://imgur.com/pGIfkkX.jpg')">About me</div>
+            <div class="contacts center" style="background-image:url('https://imgur.com/kOT8vlV.jpg')">Contacts</div>
+            <div class="projects center" style="background-image:url('https://imgur.com/04n3ce8.jpg');">Projects</div>
+            <div class="finish center" style="background-image:url('https://imgur.com/WxBNuOW.jpg');">
+                Finish!
+            </div>
         </div>
     
-</body></html>
+
+<!--https://imgur.com/8rCThiD--></body></html>
