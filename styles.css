@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right ,#00476a,#e400a4);
+    background-image: linear-gradient(to right, #00476a, #e400a4);
     border-left: 10px solid rgb(255, 0, 255);
     border-right: 10px solid rgb(0, 160, 255);
     border-bottom: 10px rgb(0, 255, 0) solid;
@@ -14,7 +14,6 @@ h2 {
 }
 
 marquee {
-    font-family: Helvetica;
     margin-left: 0;
 }
 
@@ -23,39 +22,54 @@ p {
 }
 
 div {
-    width: 14%;
-    height: 20%;
     border: 1px solid white;
     float: left;
-    text-align: center;
-	margin-right:5px;
+    text-align: center;    
+}
+
+.center {
+    width: 14%;
+    height: 20%;
+    margin-right: 5px;
+    background-size:200%;
+    font-size:20px;
+    
 }
 
 .about {
-    color: rgb(255, 100, 0);
-    margin-left:20%;
-    border-top-color:rgb(255, 100, 0);
-	border-bottom-color:rgb(0,255,0);
+    background-color: white;
+    margin-left: 20%;
+    border-top-color: rgb(255, 100, 0);
+    border-bottom-color: rgb(0, 255, 0);
 }
 
 .contacts {
-    color: rgb(0, 160, 255);
-    border-top-color:rgb(0, 160, 255);
-	border-bottom-color:rgb(0,255,0);
+    color: #24ff00;
+    border-top-color: rgb(0, 160, 255);
+    border-bottom-color: rgb(0, 255, 0);
 }
 
 .projects {
     color: rgb(255, 255, 0);
-    border-top-color:rgb(255, 255, 0);
-	border-bottom-color:rgb(0,255,0);
+    border-top-color: rgb(255, 255, 0);
+    border-bottom-color: rgb(0, 255, 0);
 }
 
 .finish {
     color: rgb(255, 0, 255);
-    margin-right:20%;
-    border-top-color:rgb(255, 0, 255);
-    border-bottom-color:rgb(0,255,0);
+    margin-right: 20%;
+    border-top-color: rgb(255, 0, 255);
+    border-bottom-color: rgb(0, 255, 0);
 }
-html,body{
-	height:100%;
+
+html,
+body {
+    height: 100%;
+}
+.flex-it{
+ 	border-style:hidden;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
 }
